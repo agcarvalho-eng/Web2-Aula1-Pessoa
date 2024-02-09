@@ -1,14 +1,14 @@
-package com.example.Aula1;
+package com.example.Aula1.model.entity;
 
 public class Pessoa {
-    private Long id;
+    private int id;
     private String nome;
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
